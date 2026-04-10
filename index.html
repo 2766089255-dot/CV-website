@@ -153,7 +153,7 @@
 <body>
 <div class="container">
 
-<!-- 导航栏 -->
+<!-- navigation bar -->
 <nav>
   <a href="#home">Home</a>
   <a href="#about">About</a>
@@ -172,15 +172,11 @@
   </div>
 </section>
 
-<!-- 2) About Me (含照片) -->
+<!-- 2) About Me  -->
 <section id="about">
   <h2>About Me</h2>
   
-  <!-- 照片占位，上传照片后替换 -->
-  <div class="photo-placeholder">Your Photo Here</div>
-  <!-- 真实照片示例：
-  <img class="profile-photo" src="photo.jpg" alt="Zheng Liwen">
-  -->
+<img class="profile-photo" src="Square%20ID%20photo.jpg" alt="Zheng Liwen">
 
   <p>I am currently pursuing a Master of Science in Data Science at Lingnan University, building on my undergraduate foundation in Aircraft Manufacturing Engineering. My unique background combines rigorous engineering thinking with modern data science methodologies. I am passionate about extracting actionable insights from complex datasets and developing lightweight, efficient AI solutions. I thrive in collaborative environments and enjoy communicating technical results to diverse audiences.</p>
   
@@ -239,7 +235,7 @@
 <section id="projects">
   <h2>Projects</h2>
   
-  <!-- 项目1：轻量级CNN对比研究 -->
+  <!-- Project 1：Comparative Study of Lightweight CNN Models on Fashion-MNIST -->
   <div class="project-item">
     <h3>Comparative Study of Lightweight CNN Models on Fashion-MNIST</h3>
     <div class="project-meta">September 2025 – December 2025 (Individual Project)</div>
@@ -248,16 +244,19 @@
     <p><strong>Approach:</strong> Compared three mainstream lightweight architectures—MobileNetV2, ShuffleNetV2, and EfficientNet-B0—under strictly controlled training conditions (30 epochs, SGD optimizer, cosine annealing). Evaluated models using accuracy, parameter count, FLOPs, and inference time.</p>
     <p><strong>Outcome/Impact:</strong> All three models achieved ~93.1% accuracy. MobileNetV2 offered the best efficiency (0.81M params, 8.09M FLOPs, 8.96 ms inference), while EfficientNet-B0 was over-parameterized for this task. The study provides actionable guidance for lightweight model selection on small-scale vision tasks.</p>
     <p><strong>Your contribution:</strong> Sole developer — designed experiment, implemented training pipeline in PyTorch, conducted statistical analysis across three random seeds, and authored full report.</p>
-    <p>Link: <a href="https://github.com/2766089255-dot/Comparative-Study-of-Lightweight-CNN-Models-on-Fashion-MNIST" target="_blank">View on GitHub</a></p>
+    <p>Link: <a href="https://github.com/2766089255-dot/Comparative-Study-of-Lightweight-CNN-Models-on-Fashion-MNIST" target="_blank">View on GitHub</a>
+    <p>Report: <a href="CNN_Report.pdf" target="_blank">Download Full Report (PDF)</a></p>
   </div>
   
-  <!-- 项目2：DQN 大鱼吃小鱼 -->
+  <!-- Project 2：DQN-based "Big Fish Eat Small Fish" Simulation -->
   <div class="project-item">
     <h3>DQN-based "Big Fish Eat Small Fish" Simulation</h3>
     <div class="project-meta">October 2025 – November 2025 (Individual)</div>
     <p><strong>Problem:</strong> Understand reinforcement learning (RL) fundamentals by building an interactive environment and training an agent to learn optimal survival strategies.</p>
     <p><strong>Approach:</strong> Developed a custom Pygame environment with state space and reward shaping. Implemented Deep Q-Network (DQN) algorithm with experience replay.</p>
     <p><strong>Outcome:</strong> Agent successfully learned to avoid larger fish and consume smaller ones after approximately 800 episodes. The project solidified RL concepts applicable to visual navigation and decision-making tasks.</p>
+    <p>Link: <a href="https://github.com/2766089255-dot/FishEatFish" target="_blank">View on GitHub</a>
+    <p>Report: <a href="DQN_Report.pdf" target="_blank">Download Full Report (PDF)</a></p>
   </div>
 </section>
 

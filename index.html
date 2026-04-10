@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zheng Liwen | Data Science Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+      background: #1e3a5f;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+    }
+    nav a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #ffffff;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #d1e0f0;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      border-left: 6px solid #2563eb;
+      padding-left: 1rem;
+      color: #1e3a5f;
+    }
+    .headline {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #1e3a5f;
+    }
+    .job-tags {
+      margin: 1rem 0;
+      color: #4b5563;
+    }
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2563eb;
+      background: #e2e8f0;
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+    .photo-placeholder {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #cbd5e1;
+      border: 3px solid #2563eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #475569;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+    }
+    .project-item {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid #d1d5db;
+      padding-bottom: 1.5rem;
+    }
+    .project-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.3rem;
+      color: #1e3a5f;
+    }
+    .project-meta {
+      color: #6b7280;
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    ul {
+      list-style-position: inside;
+      margin-top: 0.5rem;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.6rem 1.8rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 1rem;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #1d4ed8;
+    }
+    .footer {
+      text-align: center;
+      color: #6b7280;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #d1d5db;
+    }
+    .contact-line {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+<!-- 导航栏 -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- 1) Home / Headline -->
+<section id="home">
+  <div class="headline">Data Science Master's Candidate — Bridging Engineering and AI for real-world insights.</div>
+  <div class="job-tags">
+    Seeking 2026 Data Analyst / Machine Learning Internship (Hong Kong or Remote)<br>
+    Core competencies: Data Science, Machine Learning, Python, SQL, Deep Learning, Data Visualization
+  </div>
+</section>
+
+<!-- 2) About Me (含照片) -->
+<section id="about">
+  <h2>About Me</h2>
+  
+  <!-- 照片占位，上传照片后替换 -->
+  <div class="photo-placeholder">Your Photo Here</div>
+  <!-- 真实照片示例：
+  <img class="profile-photo" src="photo.jpg" alt="Zheng Liwen">
+  -->
+
+  <p>I am currently pursuing a Master of Science in Data Science at Lingnan University, building on my undergraduate foundation in Aircraft Manufacturing Engineering. My unique background combines rigorous engineering thinking with modern data science methodologies. I am passionate about extracting actionable insights from complex datasets and developing lightweight, efficient AI solutions. I thrive in collaborative environments and enjoy communicating technical results to diverse audiences.</p>
+  
+  <div style="margin-top: 1.8rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+    <div>
+      <p><strong>Education</strong></p>
+      <p><strong>Lingnan University, Hong Kong</strong><br>
+      MSc in Data Science (Expected July 2026)<br>
+      GPA: 3.4/4.0 (First Semester)</p>
+      <p style="margin-top: 0.8rem;"><strong>Tianjin Sino-German University of Applied Sciences</strong><br>
+      B.Eng. in Aircraft Manufacturing Engineering (2021–2025)<br>
+      GPA: 2.9/4.0</p>
+    </div>
+    <div>
+      <p><strong>Strengths and Focus Areas</strong></p>
+      <ul>
+        <li>Machine Learning model design and lightweight deployment</li>
+        <li>Database management and query optimization (SQL / NoSQL)</li>
+        <li>Data storytelling and cross-functional communication</li>
+        <li>Rapid adaptation to new tools and frameworks</li>
+      </ul>
+      <p style="margin-top: 1rem;"><strong>Languages</strong><br>
+      Chinese (Native) · English (IELTS 6.0)</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3) Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid-2">
+    <div>
+      <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: #1e3a5f;">Technical Skills</h3>
+      <ul>
+        <li>Python (PyTorch, pandas, NumPy, Matplotlib)</li>
+        <li>C++ (fundamental programming)</li>
+        <li>SQL (MySQL, complex queries, optimization)</li>
+        <li>Machine Learning (CNN, DQN, Scikit-learn)</li>
+        <li>Statistics and Data Mining</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="font-size: 1.3rem; margin-bottom: 1rem; color: #1e3a5f;">Tools and Business Skills</h3>
+      <ul>
+        <li>Weka, Anaconda, PyCharm</li>
+        <li>MySQL, MongoDB</li>
+        <li>Data visualization and reporting</li>
+        <li>Problem framing and metric definition</li>
+        <li>Team leadership and project coordination</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 4) Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+  
+  <!-- 项目1：轻量级CNN对比研究 -->
+  <div class="project-item">
+    <h3>Comparative Study of Lightweight CNN Models on Fashion-MNIST</h3>
+    <div class="project-meta">September 2025 – December 2025 (Individual Project)</div>
+    <p><strong>Problem:</strong> Selecting an optimal lightweight CNN architecture for mobile or embedded vision tasks requires balancing accuracy and computational efficiency. Most benchmarks are based on large datasets like ImageNet, which may not reflect performance on smaller, domain-specific datasets.</p>
+    <p><strong>Data:</strong> Fashion-MNIST dataset (70,000 grayscale images of 28×28 pixels across 10 clothing categories).</p>
+    <p><strong>Approach:</strong> Compared three mainstream lightweight architectures—MobileNetV2, ShuffleNetV2, and EfficientNet-B0—under strictly controlled training conditions (30 epochs, SGD optimizer, cosine annealing). Evaluated models using accuracy, parameter count, FLOPs, and inference time.</p>
+    <p><strong>Outcome/Impact:</strong> All three models achieved ~93.1% accuracy. MobileNetV2 offered the best efficiency (0.81M params, 8.09M FLOPs, 8.96 ms inference), while EfficientNet-B0 was over-parameterized for this task. The study provides actionable guidance for lightweight model selection on small-scale vision tasks.</p>
+    <p><strong>Your contribution:</strong> Sole developer — designed experiment, implemented training pipeline in PyTorch, conducted statistical analysis across three random seeds, and authored full report.</p>
+    <p>Link: <a href="https://github.com/2766089255-dot/Comparative-Study-of-Lightweight-CNN-Models-on-Fashion-MNIST" target="_blank">View on GitHub</a></p>
+  </div>
+  
+  <!-- 项目2：DQN 大鱼吃小鱼 -->
+  <div class="project-item">
+    <h3>DQN-based "Big Fish Eat Small Fish" Simulation</h3>
+    <div class="project-meta">October 2025 – November 2025 (Individual)</div>
+    <p><strong>Problem:</strong> Understand reinforcement learning (RL) fundamentals by building an interactive environment and training an agent to learn optimal survival strategies.</p>
+    <p><strong>Approach:</strong> Developed a custom Pygame environment with state space and reward shaping. Implemented Deep Q-Network (DQN) algorithm with experience replay.</p>
+    <p><strong>Outcome:</strong> Agent successfully learned to avoid larger fish and consume smaller ones after approximately 800 episodes. The project solidified RL concepts applicable to visual navigation and decision-making tasks.</p>
+  </div>
+</section>
+
+<!-- 5) Resume / CV -->
+<section id="resume">
+  <h2>Resume</h2>
+  <p>Download my full CV (PDF):</p>
+  <a class="btn" href="#" target="_blank">Download Resume (PDF)</a>
+  <p style="margin-top: 1rem; color: #6b7280;">The PDF includes detailed education, internship experience, technical skills, and project highlights.</p>
+</section>
+
+<!-- 6) Contact -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-line">Email: <a href="mailto:zhengliwen_hk@163.com">zhengliwen_hk@163.com</a></div>
+  <div class="contact-line">Phone: +852 6934 7265 / +86 178 9153 1230</div>
+  <div class="contact-line">LinkedIn: <a href="https://www.linkedin.com/in/liwen-zheng-26a63b3a7" target="_blank">linkedin.com/in/liwen-zheng-26a63b3a7</a></div>
+  <div class="contact-line">GitHub: <a href="https://github.com/2766089255-dot" target="_blank">github.com/2766089255-dot</a></div>
+  <div class="contact-line" style="margin-top: 1.5rem;">Address: 250 Shing Mun Road, San Hui, Tuen Mun, Hong Kong</div>
+</section>
+
+<div class="footer">
+  <p>Copyright 2026 Zheng Liwen — Built for MSc Data Science Individual Project</p>
+</div>
+
+</div>
+</body>
+</html>
